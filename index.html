@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="imgs/site icon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        </style>
+        <title>PPT</title>
+    </head>
+    <body>
+
+        <div id="bloco">
+            <div id="blocoDisplay">
+                <div id="display">
+                    <p id="textDply">Escolha entre <strong>PEDRA</strong>, <strong>PAPEL</strong> e <strong>TESOURA</strong> para dar início ao jogo!</p>
+                </div>
+            </div>
+            
+            <div id="blocoOpcoes">
+                <div id="opcoes">
+                    <img src="imgs/Rock.png" alt="Rock icon" class="imgsOpt" id="imgRock" onclick="opt('Rock')" onmousedown="pressed('Rock')" onmouseup="loosed('Rock')">
+                    <img src="imgs/Paper.png" alt="Paper icon" class="imgsOpt" id="imgPaper" onclick="opt('Paper')" onmousedown="pressed('Paper')" onmouseup="loosed('Paper')">
+                    <img src="imgs/Sci.png" alt="Scissors icon" class="imgsOpt" id="imgSci" onclick="opt('Sci')" onmousedown="pressed('Sci')" onmouseup="loosed('Sci')">
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
