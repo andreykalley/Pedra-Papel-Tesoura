@@ -62,5 +62,17 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     top: 33%;
-    
+}
+
+#resultDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 105%;
+    width: 280px;
+    height: 59px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 0px #03E535;
+    margin-bottom: 30px;
 }
